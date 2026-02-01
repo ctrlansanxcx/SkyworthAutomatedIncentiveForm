@@ -32,7 +32,7 @@ class _InsertQuantityPage extends State<InsertQuantity> {
   final coorController = TextEditingController();
   final monthController = TextEditingController();
   final yearController = TextEditingController();
-  String baseUrl = 'http://127.0.0.1:8000';
+String baseUrl = 'http://192.168.0.110:8000';
   String dealerQuery = '';
   String branchQuery = '';
   String? selectedWorksheet;
